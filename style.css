@@ -1,0 +1,188 @@
+/* General */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&display=swap');
+
+:root {
+    /* CSS HEX */
+    --color-light: #e8eef2ff;
+    --color-secondary-light: #d4e9f0ff;
+    --color-primary: #105274ff;
+    --color-dark: #071820ff;
+    --color-grey: #4b4d4eff;
+    --color-white: #ffffffff;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background: var(--color-secondary-light);
+    align-items: center;
+    /* justify-content: center; */
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+.section-header {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.top-banner {
+    background: var(--color-primary);
+    color: var(--color-white);
+    width: 100vw;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 1rem;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+/* navbar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10rem;
+    background: var(--color-white);
+}
+
+.logo {
+    font-size: 2.4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.nav-logo {
+    width: 10rem;
+}
+
+.nav-options {
+    display: flex;
+    text-decoration: none;
+    gap: 2.8rem;
+    font-size: 1.6rem;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-opt {
+    color: var(--color-dark);
+    letter-spacing: 1px;
+}
+
+.nav-opt:hover {
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.btn-contact {
+    background: var(--color-primary);
+    color: var(--color-light);
+    padding: 1rem;
+    border-radius: 2px;
+    letter-spacing: 1px;
+}
+
+/* main */
+
+.section-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+}
+
+/* footer */
+.section-footer {
+    display: flex;
+    background: var(--color-white);
+    width: 100vw;
+    padding: 5rem 10rem;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.company-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer-logo {
+    width: 8rem;
+}
+
+.copy {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.footer-nav-links {
+    display: flex;
+    gap: 6rem;
+}
+
+.foot-nav-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.foot-title {
+    font-size: 1.6rem;
+    color: var(--color-primary);
+    font-weight: 600;
+    letter-spacing: 1.4px;
+}
+
+.foot-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.foot-link {
+    font-size: 1.2rem;
+    color: var(--color-grey);
+    letter-spacing: 1.2px;
+}
+
+.socials {
+    font-size: 2.8rem;
+    display: flex;
+    gap: 1.2rem;
+    color: var(--color-dark);
+    transition: all 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    color: var(--color-primary);
+    scale: 1.1;
+}
