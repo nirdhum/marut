@@ -65,7 +65,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10rem;
+    padding: 3rem 10rem;
     background: var(--color-white);
 }
 
@@ -76,7 +76,7 @@ a {
 }
 
 .nav-logo {
-    width: 10rem;
+    width: 12rem;
 }
 
 .nav-options {
@@ -527,7 +527,7 @@ a {
 }
 
 .footer-logo {
-    width: 8rem;
+    width: 12rem;
 }
 
 .copy {
