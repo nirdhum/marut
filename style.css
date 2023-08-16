@@ -84,6 +84,7 @@ a {
     text-decoration: none;
     gap: 3.2rem;
     font-size: 1.6rem;
+    font-weight: 600;
     padding: 0;
     margin: 0;
     align-items: center;
@@ -93,11 +94,12 @@ a {
 .nav-opt {
     color: var(--color-dark);
     letter-spacing: 1px;
+    transition: all 0.1s ease-in-out;
 }
 
 .nav-opt:hover {
     color: var(--color-primary);
-    font-weight: 600;
+    border-bottom: 2px solid var(--color-primary);
 }
 
 .btn-contact {
@@ -108,12 +110,18 @@ a {
     letter-spacing: 1px;
 }
 
+.btn-contact:hover {
+    background: var(--color-white);
+    color: var(--color-primary);
+    box-shadow: 0 0 0 1px var(--color-primary);
+}
+
 /* main */
 
 .section-main {
     display: flex;
     flex-direction: column;
-    margin-top: 20rem;
+    margin-top: 15rem;
 }
 
 /* hero */
@@ -121,7 +129,7 @@ a {
 .hero {
     display: flex;
     gap: 5rem;
-    padding: 5rem 15rem;
+    padding: 8rem 20rem;
     align-items: center;
     justify-content: center;
 }
@@ -132,7 +140,7 @@ a {
 }
 
 .hero_img {
-    width: 70%;
+    width: 80%;
 }
 
 .form-container {
@@ -147,7 +155,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .welcome {
@@ -248,6 +256,84 @@ a {
     font-weight: 500;
 }
 
+/* about section */
+
+.about-section {
+    width: 100vw;
+    padding: 5rem 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: var(--color-white);
+    gap: 5rem;
+}
+
+.about {
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    gap: 2rem;
+}
+
+.about-left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about-text {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.about-marut {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.points {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.point-icon {
+    color: var(--color-primary);
+    font-size: 4.2rem;
+}
+
+.point-content {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.point-title {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: .8px;
+    margin: 0;
+    padding: 0;
+}
+
+.point-text {
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.8px;
+}
+
+.about-img {
+    width: 30%;
+}
+
+
 /* get-started */
 
 .get-started {
@@ -256,10 +342,9 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5rem 10rem;
+    padding: 5rem 20rem;
     background: var(--color-white);
     gap: 3rem;
-
 }
 
 .section-title {
@@ -272,7 +357,7 @@ a {
 
 .secondary-title {
     font-size: 2.8rem;
-    font-weight: 600;
+    font-weight: 700;
     margin: 0;
     padding: 0;
 }
@@ -299,6 +384,8 @@ a {
     padding: 5rem 3rem;
     border-radius: 2px;
     cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.1);
 }
 
 .client-icon {
@@ -319,7 +406,66 @@ a {
 .client-card:hover {
     color: var(--color-primary);
     background: var(--color-white);
-    border: 1px solid var(--color-primary);
+    border: 0.5px solid var(--color-primary);
+}
+
+/* advantages */
+
+.section-advantages {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 10rem;
+    background: var(--color-white);
+    gap: 3rem;
+}
+
+.advantages {
+    display: flex;
+    padding: 2rem 5rem;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.advantage {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    width: 60rem;
+}
+
+.adv-img {
+    width: 20%;
+}
+
+.adv-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.adv-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.adv-text {
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 0;
 }
 
 /* connect */
@@ -333,10 +479,6 @@ a {
     padding: 5rem 0;
     gap: 20rem;
     background: var(--color-secondary-light);
-}
-
-.connect:nth-child(1) {
-    border-right: 1px solid var(--color-dark);
 }
 
 .section {
@@ -361,6 +503,11 @@ a {
     font-size: 1.4rem;
     letter-spacing: 1px;
     background: var(--color-white);
+}
+
+.btn:hover {
+    background: var(--color-primary);
+    color: var(--color-white);
 }
 
 /* footer */
