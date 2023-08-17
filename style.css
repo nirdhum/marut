@@ -22,6 +22,7 @@ html {
 }
 
 body {
+    width: 100vw;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -41,7 +42,7 @@ a {
 .section-header {
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
     position: fixed;
     z-index: 10;
     /* align-items: center;
@@ -51,7 +52,7 @@ a {
 .top-banner {
     background: var(--color-primary);
     color: var(--color-white);
-    width: 100vw;
+    width: 100%;
     text-align: center;
     font-size: 1.6rem;
     padding: 1rem;
@@ -122,6 +123,7 @@ a {
     display: flex;
     flex-direction: column;
     margin-top: 15rem;
+    width: 100%;
 }
 
 /* hero */
@@ -259,7 +261,7 @@ a {
 /* about section */
 
 .about-section {
-    width: 100vw;
+    width: 100%;
     padding: 5rem 20rem;
     display: flex;
     flex-direction: column;
@@ -337,7 +339,7 @@ a {
 /* get-started */
 
 .get-started {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -412,7 +414,7 @@ a {
 /* advantages */
 
 .section-advantages {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -473,7 +475,7 @@ a {
 .connect {
     display: flex;
     flex-wrap: wrap;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
     align-items: center;
     padding: 5rem 0;
@@ -514,7 +516,7 @@ a {
 .section-footer {
     display: flex;
     background: var(--color-white);
-    width: 100vw;
+    width: 100%;
     padding: 5rem 10rem;
     align-items: flex-start;
     justify-content: space-between;
