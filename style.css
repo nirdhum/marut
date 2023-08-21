@@ -136,11 +136,6 @@ a {
     justify-content: center;
 }
 
-.left-container {
-    display: flex;
-    /* justify-content: center; */
-}
-
 .hero_img {
     width: 80%;
 }
@@ -177,7 +172,89 @@ a {
     /* 150% */
 }
 
+.acc-options {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: var(--color-primary);
+}
 
+.opt:hover {
+    border-bottom: 1px solid var(--color-primary);
+    padding-bottom: 0.5rem;
+}
+
+.form-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.input-box {
+    position: relative;
+}
+
+input {
+    border: 0;
+    border-bottom: 2px solid var(--color-dark);
+    outline: none;
+    background: transparent;
+}
+
+label {
+    position: absolute;
+    left: .5rem;
+    top: 0;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    cursor: text;
+    transition: all 0.3s ease-in-out;
+}
+
+input,
+label {
+    width: 100%;
+    height: 5.5rem;
+}
+
+input:focus+label,
+input:valid+label {
+    font-size: 1rem;
+    top: -2.5rem;
+    left: 0;
+    pointer-events: none;
+}
+
+input:focus,
+input:valid {
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.help {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1.4rem;
+    font-size: 1.2rem;
+}
+
+.help-links {
+    color: var(--color-primary);
+}
+
+.login-btn {
+    font-size: 1.4rem;
+    padding: 2rem;
+    background: var(--color-primary);
+    color: var(--color-white);
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
 
 /* about section */
 
