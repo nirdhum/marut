@@ -16,6 +16,7 @@
         gap: 2rem;
         align-items: center;
         justify-content: center;
+        padding: 8rem 10rem;
     }
 
     .img-container {
@@ -26,9 +27,39 @@
         align-items: center;
     }
 
-    /* .hero_img {
-        width: 100%;
-    } */
+    .login-form-headline {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .form-container {
+        align-items: center;
+        width: 90%;
+    }
+
+    .welcome,
+    .tagline {
+        text-align: center;
+    }
+
+    .welcome {
+        font-size: 2.4rem;
+
+    }
+
+    .tagline {
+        font-size: 1.4rem;
+        width: auto;
+    }
+
+    .form-section {
+        width: 90vw;
+    }
+
+    .form-headline {
+        width: 90vw;
+    }
 
 
     /* about section */
@@ -67,6 +98,571 @@
     .advantage {
         flex-direction: column;
         width: 100%;
+    }
+
+    .adv-img {
+        width: 50%;
+    }
+
+    .adv-content {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    /* connect */
+
+    .connect {
+        gap: 2rem;
+    }
+
+    /* footer */
+    .section-footer {
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 2rem;
+        gap: 4rem;
+    }
+
+    .footer-nav-links {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    /* nav */
+    /* Nav for mobile to be made */
+    .nav-options {
+        display: none;
+    }
+
+    .navbar {
+        padding: 3rem 5rem;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        padding: 8rem 10rem;
+    }
+
+    .img-container {
+        display: flex;
+        width: 30rem;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-form-headline {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .form-container {
+        align-items: center;
+        width: 90%;
+    }
+
+    .welcome,
+    .tagline {
+        text-align: center;
+    }
+
+    .welcome {
+        font-size: 2.4rem;
+
+    }
+
+    .tagline {
+        font-size: 1.4rem;
+        width: auto;
+    }
+
+    .form-section {
+        width: 90vw;
+    }
+
+    .form-headline {
+        width: 90vw;
+    }
+
+
+    /* about section */
+
+    .about-section {
+        padding: 5rem 2rem;
+    }
+
+    .about-content {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-img {
+        width: 70%;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    /* get-started */
+
+    .get-started {
+        padding: 5rem 2rem;
+        gap: 3rem;
+    }
+
+    /* advantages */
+
+    .section-advantages {
+        padding: 5rem 2rem;
+    }
+
+    .advantage {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .adv-img {
+        width: 50%;
+    }
+
+    .adv-content {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    /* connect */
+
+    .connect {
+        gap: 2rem;
+    }
+
+    /* footer */
+    .section-footer {
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 2rem;
+        gap: 4rem;
+    }
+
+    .footer-nav-links {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 410px) {
+
+    /* nav */
+    /* Nav for mobile to be made */
+    .nav-options {
+        display: none;
+    }
+
+    .navbar {
+        padding: 3rem 5rem;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        padding: 8rem 10rem;
+    }
+
+    .img-container {
+        display: flex;
+        width: 30rem;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-form-headline {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .form-container {
+        align-items: center;
+        width: 90%;
+    }
+
+    .welcome,
+    .tagline {
+        text-align: center;
+    }
+
+    .welcome {
+        font-size: 2.4rem;
+
+    }
+
+    .tagline {
+        font-size: 1.4rem;
+        width: auto;
+    }
+
+    .form-section {
+        width: 90vw;
+    }
+
+    .form-headline {
+        width: 90vw;
+    }
+
+
+    /* about section */
+
+    .about-section {
+        padding: 5rem 2rem;
+    }
+
+    .about-content {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-marut {
+        justify-content: center;
+    }
+
+    .about-img {
+        width: 70%;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    /* get-started */
+
+    .get-started {
+        padding: 5rem 2rem;
+        gap: 3rem;
+    }
+
+    .client-category {
+        justify-content: center;
+    }
+
+    /* advantages */
+
+    .section-advantages {
+        padding: 5rem 2rem;
+    }
+
+    .advantage {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .adv-img {
+        width: 50%;
+    }
+
+    .adv-content {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    /* connect */
+
+    .connect {
+        gap: 2rem;
+    }
+
+    /* footer */
+    .section-footer {
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 2rem;
+        gap: 4rem;
+    }
+
+    .footer-nav-links {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    /* nav */
+    /* Nav for mobile to be made */
+    .nav-options {
+        display: none;
+    }
+
+    .navbar {
+        padding: 3rem 5rem;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        padding: 8rem 10rem;
+    }
+
+    .img-container {
+        display: flex;
+        width: 30rem;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-form-headline {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .form-container {
+        align-items: center;
+        width: 90%;
+    }
+
+    .welcome,
+    .tagline {
+        text-align: center;
+    }
+
+    .welcome {
+        font-size: 2.4rem;
+
+    }
+
+    .tagline {
+        font-size: 1.4rem;
+        width: auto;
+    }
+
+    .form-section {
+        width: 90vw;
+    }
+
+    .form-headline {
+        width: 90vw;
+    }
+
+
+    /* about section */
+
+    .about-section {
+        padding: 5rem 2rem;
+    }
+
+    .about-content {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-marut {
+        justify-content: center;
+    }
+
+    .about-img {
+        width: 70%;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    /* get-started */
+
+    .get-started {
+        padding: 5rem 2rem;
+        gap: 3rem;
+    }
+
+    .client-category {
+        justify-content: center;
+    }
+
+    /* advantages */
+
+    .section-advantages {
+        padding: 5rem 2rem;
+    }
+
+    .advantage {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .adv-img {
+        width: 50%;
+    }
+
+    .adv-content {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    /* connect */
+
+    .connect {
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    /* footer */
+    .section-footer {
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 2rem;
+        gap: 4rem;
+    }
+
+    .footer-nav-links {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 770px) {
+
+    /* nav */
+    /* Nav for mobile to be made */
+    .nav-options {
+        display: none;
+    }
+
+    .navbar {
+        padding: 3rem 5rem;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        padding: 4rem 2rem;
+    }
+
+    .img-container {
+        display: flex;
+        width: 30rem;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-form-headline {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .form-container {
+        align-items: center;
+        width: 90%;
+    }
+
+    .welcome,
+    .tagline {
+        text-align: center;
+    }
+
+    /* .welcome {
+        font-size: 2.4rem;
+
+    } */
+
+    .tagline {
+        /* font-size: 1.4rem; */
+        width: auto;
+    }
+
+    .form-section {
+        width: 70vw;
+    }
+
+    .form-headline {
+        width: 90vw;
+    }
+
+
+    /* about section */
+
+    .about-section {
+        padding: 5rem 2rem;
+    }
+
+    .about-content {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-marut {
+        justify-content: center;
+    }
+
+    .about-img {
+        width: 70%;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    /* get-started */
+
+    .get-started {
+        padding: 5rem 2rem;
+        gap: 3rem;
+    }
+
+    .client-category {
+        justify-content: center;
+    }
+
+    /* advantages */
+
+    .row {
+        justify-content: center;
+    }
+
+    .section-advantages {
+        padding: 5rem 2rem;
+    }
+
+    .advantage {
+        flex-direction: column;
+        width: 45%;
     }
 
     .adv-img {
